@@ -1,6 +1,9 @@
 * {
     margin: 0;
 }
+header {
+    background-color: cadetblue;
+}
 body{
     background-color: rgb(131, 133, 130);
 }
