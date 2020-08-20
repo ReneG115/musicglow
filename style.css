@@ -7,6 +7,25 @@ header {
 body{
     background-color: rgb(131, 133, 130);
 }
+.navbar {
+    text-align: center;
+}
+.navbar ul {
+    list-style: none;
+}
+.navbar ul li {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 20px 10px 20px;
+    font-size: 22px;
+    padding: 5px;
+    color: azure;
+}
+.navbar ul li:hover{
+    background-color: white;
+    color: cadetblue;
+    cursor: pointer;
+}
 .bg-main-image {
     position: absolute;
     filter: contrast(70%);
