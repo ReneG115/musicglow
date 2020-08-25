@@ -7,6 +7,9 @@ header {
 body{
     background-color: rgb(131, 133, 130);
 }
+footer {
+    z-index: ;
+}
 .navbar {
     text-align: center;
 }
@@ -21,15 +24,16 @@ body{
     padding: 5px;
     color: azure;
 }
+.main-img {
+
+}
 .navbar ul li:hover{
     background-color: white;
     color: cadetblue;
     cursor: pointer;
 }
 .bg-main-image {
-    position: absolute;
     filter: contrast(70%);
-    z-index: -1;
 }
 .desc {
     text-align: center;
