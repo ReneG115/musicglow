@@ -2,10 +2,10 @@
     margin: 0;
 }
 header {
-    background-color: cadetblue;
+    background-color: rgba(41, 248, 255, 0.329);
 }
 body{
-    background-color: rgb(131, 133, 130);
+    background-color: rgb(41, 41, 41);
 }
 .navbar {
     text-align: center;
@@ -22,40 +22,43 @@ body{
     color: azure;
 }
 .navbar ul li:hover{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.664);
     color: cadetblue;
     cursor: pointer;
 }
 .bg-main-image {
     position: absolute;
-    filter: contrast(70%);
+    filter: blur(2.5px);
     z-index: -1;
 }
 .desc {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     line-height: 35px;
     font-size: 25px; 
 }
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Fugaz One', cursive;
     text-align: center;
-    font-size: 4em;
+    font-weight: 100;
+    font-size: 5em;
+    color: rgb(226, 160, 255);
+    text-decoration: white;
 }
+
 .img-desc {
     position: absolute;
-    margin: 85px 10px 10px 30%;
-    width: 51%;
+    margin: 85px 10px 10px 18%;
+    width: 70%;
 }
 .img-desc p{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 100;
-    line-height: 55px;
-    color: black;
+    font-family: 'Maven Pro';
+    line-height: 75px;
+    color: rgb(255, 255, 255);
 }
 .medium {
-    font-size: 40px;
+    font-size: 60px;
 }
 .tiny {
     font-size: 20px;
