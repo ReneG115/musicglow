@@ -63,9 +63,7 @@ footer a {
     text-decoration: none;
 }
 .bg-main-image {
-    position: absolute;
     filter: blur(2.5px);
-    z-index: -1;
 }
 .desc {
     text-align: center;
@@ -87,6 +85,7 @@ h1 {
     position: absolute;
     margin: 85px 10px 10px 18%;
     width: 70%;
+    z-index: 1;
 }
 .img-desc p{
     font-family: 'Maven Pro';
