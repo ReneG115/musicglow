@@ -95,21 +95,34 @@ h1 {
 .membership-detail {
     display: inline-block;
     width: 25%;
+    padding: 10px;
+    text-align: center;
     border: solid white 1px;
+    margin: auto 25px auto 25px;
 }
 .membership-title {
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
     color: white;
     font-size: 40px;
     border-bottom: white solid 1px;
 }
 .membership-desc {
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    padding: auto 25px auto 25px;
 }
 .img-desc p{
     font-family: 'Maven Pro';
     line-height: 75px;
     color: rgb(255, 255, 255);
+}
+.membership-price {
+    font-family: 'Maven Pro';
+    font-size: 70px;
+    color: white;
+    text-align: center;
 }
 .medium {
     font-size: 60px;
