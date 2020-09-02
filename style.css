@@ -87,6 +87,25 @@ h1 {
     width: 70%;
     z-index: 1;
 }
+.memberships {
+    position: absolute;
+    z-index: 1;
+    margin: 400px 10px 10px 5%;
+}
+.membership-detail {
+    display: inline-block;
+    width: 25%;
+    border: solid white 1px;
+}
+.membership-title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 40px;
+    border-bottom: white solid 1px;
+}
+.membership-desc {
+    font-family: Arial, Helvetica, sans-serif;
+}
 .img-desc p{
     font-family: 'Maven Pro';
     line-height: 75px;
