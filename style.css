@@ -87,14 +87,56 @@ h1 {
     width: 70%;
     z-index: 1;
 }
+.memberships {
+    position: absolute;
+    z-index: 1;
+    margin: 400px 10px 10px 5%;
+}
+.membership-detail {
+    display: inline-block;
+    width: 25%;
+    background-color: rgba(0, 0, 0, 0.527);
+    padding: 10px;
+    text-align: center;
+    margin: auto 25px auto 75px;
+}
+.membership-title {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+    color: white;
+    font-size: 40px;
+    border-bottom: white solid 1px;
+}
+.membership-desc {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    padding: auto 25px auto 25px;
+}
 .img-desc p{
     font-family: 'Maven Pro';
     line-height: 75px;
     color: rgb(255, 255, 255);
 }
+.membership-price {
+    font-family: 'Maven Pro';
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+.membership-price:hover {
+    transition: ease-in-out .3s;
+    font-size: 110px;
+    cursor: pointer;
+    color: rgb(226, 160, 255);
+}
+
 .medium {
     font-size: 60px;
 }
 .tiny {
     font-size: 20px;
+}
+.big {
+    font-size: 110px;
 }
