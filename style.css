@@ -126,7 +126,7 @@ h1 {
 }
 .membership-price:hover {
     transition: ease-in-out .3s;
-    font-size: 110px;
+    font-size: 180px;
     cursor: pointer;
     color: rgb(226, 160, 255);
 }
